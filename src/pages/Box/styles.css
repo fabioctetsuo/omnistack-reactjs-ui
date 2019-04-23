@@ -1,0 +1,75 @@
+#box-container { 
+  max-width: 900px;
+  margin: 50px auto 0;
+}
+
+#box-container header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box-container header h1 {
+  font-size: 21px;
+  padding-left: 15px;
+  margin-left: 15px;
+  border-left: 1px solid #ddd;
+}
+
+#box-container header button svg {
+  margin-right: 10px;
+}
+
+#box-container header button:hover {
+  opacity: 0.9;
+}
+
+#box-container .upload {
+  border-radius: 4px;
+  padding: 30px;
+  text-align: center;
+  border: 1px dashed #ddd;
+  color: #999;
+  margin-top: 50px;
+  cursor: pointer
+}
+
+#box-container ul {
+  margin: 30px 0;
+  list-style: none;
+}
+
+#box-container ul li {
+  display: flex;
+  min-height: 50px; 
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  font-size: 12px;
+}
+
+#box-container ul li:last-child {
+  border-bottom: none;
+} 
+
+#box-container ul li a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none !important;
+}
+
+#box-container ul li a svg {
+  width: 25px;
+  height: 25px;
+  margin: 0 10px 0 0;
+}
+
+#box-container ul li a strong {
+  color: #333;
+  font-weight: normal;
+}
+
+#box-container ul li span {
+  color: #999;
+}
